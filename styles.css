@@ -1,4 +1,52 @@
-.recipe-image {
+html {
+    background-color: bisque;
+    margin-bottom: 1em;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    min-width: 540px;
+    max-width: 768px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: cursive;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link {
+    display: inline-block;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: bisque;
+    background-color: black;
+}
+
+.recipe-image-container {
     width: 400px;
     height: auto;
+    margin: auto;
 }
